@@ -1,6 +1,6 @@
 <?php
 //Docs: https://github.com/emtiyaz-app/docs#payment
-//Repository: https://github.com/emtiyaz-app/samplecode-php
+//Repository: https://github.com/emtiyaz-app/samplecodes
 
 include_once("payment_library.php");
 

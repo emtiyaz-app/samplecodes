@@ -1,6 +1,6 @@
 <?php
 //Docs: https://github.com/emtiyaz-app/docs#payment
-//Repository: https://github.com/emtiyaz-app/samplecode-php
+//Repository: https://github.com/emtiyaz-app/samplecodes
 
 function post($parameter){
     if(!isset($_POST[$parameter])) {

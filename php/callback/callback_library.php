@@ -1,6 +1,6 @@
 <?php
 //Docs: https://github.com/emtiyaz-app/docs#callback
-//Repository: https://github.com/emtiyaz-app/samplecode-php
+//Repository: https://github.com/emtiyaz-app/samplecodes
 
 function parameter($p){
     if(!isset($_GET[$p])) {
