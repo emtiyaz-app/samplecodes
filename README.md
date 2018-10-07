@@ -2,7 +2,7 @@
 
 # Emtiyaz Documentation
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/emtiyaz-app/docs/license)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/emtiyaz-app/docs/blob/master/license)
 
 ## Table of Contents
 
