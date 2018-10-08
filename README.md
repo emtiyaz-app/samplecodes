@@ -2,14 +2,15 @@
 
 # Emtiyaz Documentation
 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/emtiyaz-app/docs/blob/master/license)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./license)
 
 ## Table of Contents
 
 * [Payment](#payment)
-	* [Create Payment Button](https://github.com/emtiyaz-app/docs#create-payment-button)
-	* [Create Payment Request](https://github.com/emtiyaz-app/docs#create-payment-request)
-	* [Verify Transaction](https://github.com/emtiyaz-app/docs#verify-transaction)
-* [Callback](https://github.com/emtiyaz-app/docs#callback)
-	* [Setup Javascript Tag](https://github.com/emtiyaz-app/docs#setup-javascript-tag)
-	* [Callback Via API Endpoint](https://github.com/emtiyaz-app/docs#callback-via-api-endpoint)
+	* [Create Payment Button Via Javascript](#create-payment-button-via-javascript)
+	* [Create Payment Request Via API](#create-payment-request-via-api)
+	* [Verify Transaction Via API](#verify-transaction-via-api)
+* [Callback](#callback)
+	* [Callback Via Javascript](#callback-via-javascript)
+	* [Callback Via API Endpoint](#callback-via-api-endpoint)
+
