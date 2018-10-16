@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout as Iframe</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://static.emtiyaz.app/js/button.js"></script>
+    <style>
+        body{ font-size: 13px; font-family: "Helvetica Neue", Arial, Helvetica, sans-serif }
+        input, select, button { padding: 10px; margin: 10px; }
+        hr { margin-top: 30px; }
+    </style>
+</head>
+<body>
+<h2>Checkout as Iframe</h2>
+<p>For more information please read our <a href="https://github.com/emtiyaz-app/docs/#create-payment-button-via-javascript">docs</a>.</p>
+<p>Please click on the button</p>
+
+<br/>
+<p>
+
+<script>
+    var button_iframe = new emtiyaz_button('button_iframe');
+    button_iframe.public_token = 'aa893433be46ae5f94187af1c13cf47f23a7412d'; //Replace your private token, Get your private token from here https://emtiyaz.app/merchant/
+    button_iframe.success_url = 'https://emtiyaz-app.github.io/samplecodes/javascript/payment/success.html';
+    button_iframe.cancel_url = 'https://emtiyaz-app.github.io/samplecodes/javascript/payment/cancel.html';
+    button_iframe.amount = 5000;
+    button_iframe.currency = 'IRR';
+    button_iframe.cellphone = 989124966428;
+    button_iframe.email = 'pooya@emtiyaz.app';
+    button_iframe.item = 'Voucher 50000 IRR';
+    button_iframe.width = 400;
+    button_iframe.height = 600;
+    button_iframe.text = 'Buy Now!';
+    button_iframe.opener = 'iframe';
+    button_iframe.show();
+</script>
+</p>
+
+<br/>
+
+<p>
+<script>
+    var button_iframe2 = new emtiyaz_button('button_iframe2');
+    button_iframe2.public_token = 'aa893433be46ae5f94187af1c13cf47f23a7412d'; //Replace your private token, Get your private token from here https://emtiyaz.app/merchant/
+    button_iframe2.success_url = 'https://emtiyaz-app.github.io/samplecodes/javascript/payment/success.html';
+    button_iframe2.cancel_url = 'https://emtiyaz-app.github.io/samplecodes/javascript/payment/cancel.html';
+    button_iframe2.amount = 5000;
+    button_iframe2.currency = 'IRR';
+    button_iframe2.style = '';
+    button_iframe2.width = 400;
+    button_iframe2.height = 600;
+    button_iframe2.text = 'Buy Now Simple';
+    button_iframe2.opener = 'iframe';
+    button_iframe2.show();
+</script>
+</p>
+
+<hr/>
+<p>Don't forget to embed Emtiyaz's badge to your website/app, <a href="https://emtiyaz.app/partners/badge" target="_blank">Get it now</a></p>
+<p><img src="https://static.emtiyaz.app/badge/full-size/bdg-pay-fa-white.png" border="0" width="200"></p>
+<p><img src="https://static.emtiyaz.app/badge/full-size/bdg-pay-fa-black.png" border="0" width="200"></p>
+
+</body>
+</html>

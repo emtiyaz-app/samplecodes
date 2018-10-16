@@ -14,7 +14,13 @@ if(parameter('emtiyaz_click')){
 
     $r = emtiyaz_callback($callback_parameter);
     if($r->status == 200){
-        //Done
+
+        echo "Done<br/>";
+
+        echo "<pre>";
+        print_r($r);
+        echo "</pre>";
+
 
     }
 }
