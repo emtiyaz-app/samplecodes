@@ -7,7 +7,7 @@ include_once("callback_library.php");
 if(parameter('emtiyaz_click')){
 
     $callback_parameter = array();
-    $callback_parameter['token'] = 'REPLACE YOUR ACCOUNT TOKEN';
+    $callback_parameter['token'] = '{private token}'; //Get you private token from here https://emtiyaz.app/bidder/settings
     $callback_parameter['click'] = parameter('emtiyaz_click');
     $callback_parameter['ip'] = parameter('emtiyaz_ip');
     $callback_parameter['event'] = parameter('emtiyaz_event');

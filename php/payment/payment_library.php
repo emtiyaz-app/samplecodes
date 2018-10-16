@@ -29,6 +29,7 @@ function file_get_ipv4_contents($url) {
 }
 
 function emtiyaz_request($parameter) {
+
     $currency_valid = array('IRR'=>true, 'IRT'=>true, 'POT'=>true, 'USD'=>true);
     if(!isset($currency_valid[$parameter['currency']])) die('Invalid Currency');
     if((int) $parameter['amount'] <= 0) die('Invaild Amount');
@@ -45,15 +46,13 @@ function emtiyaz_request($parameter) {
     $output = file_get_ipv4_contents($endpoint);
     $result = json_decode($output);
     return $result;
+
 }
 
 function emtiyaz_verify($parameter) {
 
     $endpoint = "https://api.emtiyaz.app/".$parameter['token']."/payment/verify.json";
-    $endpoint .= "?currency=".$parameter['currency'];
-    $endpoint .= "&amount=".$parameter['amount'];
-    $endpoint .= "&authority=".$parameter['authority'];
-
+    $endpoint .= "?authority=".$parameter['authority'];
     $output = file_get_ipv4_contents($endpoint);
     $result = json_decode($output);
     return $result;

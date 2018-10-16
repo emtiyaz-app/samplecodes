@@ -5,10 +5,11 @@
 include_once("payment_library.php");
 
 if(post('amount') > 0) {
+
     $request_parameter = array();
-    $request_parameter['token'] = 'REPLACE YOUR MERCHANT TOKEN';
-    $request_parameter['cancel'] = 'http://www.mystore.com/cancel.php';
-    $request_parameter['success'] = 'http://www.mystore.com/verify.php';
+    $request_parameter['token'] = '081be1fb910cd07a4254e768e9e2e64e7b98c474'; //Replace your private token, Get your private token from here https://emtiyaz.app/merchant/
+    $request_parameter['cancel'] = 'https://samplecodes.emtiyaz.app/php/payment/';
+    $request_parameter['success'] = 'https://samplecodes.emtiyaz.app/php/payment/verify.php';
     $request_parameter['currency'] = 'IRR';
 
     $request_parameter['amount'] = post('amount');
